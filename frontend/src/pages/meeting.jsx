@@ -5,6 +5,7 @@ export default function Video({ match }) {
   const id = match.params.id;
 
   useEffect(() => {
+    //replace with your username
     const domain = "https://vixion.daily.co/";
 
     axios
